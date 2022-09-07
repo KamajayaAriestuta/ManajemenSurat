@@ -84,7 +84,7 @@ if (empty($_SESSION['admin'])) {
 
                         <!-- Welcome Message START -->
                         <div class="col s12">
-                            <div class="card">
+                            <div class="card" style="border-radius: 12px;">
                                 <div class="card-content">
                                     <h4>Selamat Datang <?php echo $_SESSION['nama']; ?></h4>
                                     <p class="description">Anda login sebagai
@@ -121,7 +121,7 @@ if (empty($_SESSION['admin'])) {
                         <!-- Info Statistic START -->
                         <a href="?page=tsm">
                             <div class="col s12 m4">
-                                <div class="card blue darken-2">
+                                <div class="card blue darken-2" style="border-radius: 12px;">
                                     <div class="card-content">
                                         <span class="card-title white-text"><i class="material-icons md-36">mail</i> Jumlah Surat Masuk</span>
                                         <?php echo '<h5 class="white-text link">' . $count1 . ' Surat Masuk</h5>'; ?>
@@ -132,7 +132,7 @@ if (empty($_SESSION['admin'])) {
 
                         <a href="?page=tsk">
                             <div class="col s12 m4">
-                                <div class="card yellow darken-2">
+                                <div class="card yellow darken-3" style="border-radius: 12px;">
                                     <div class="card-content">
                                         <span class="card-title white-text"><i class="material-icons md-36">drafts</i> Jumlah Surat Keluar</span>
                                         <?php echo '<h5 class="white-text link">' . $count2 . ' Surat Keluar</h5>'; ?>
@@ -142,7 +142,7 @@ if (empty($_SESSION['admin'])) {
                         </a>
 
                         <div class="col s12 m4">
-                            <div class="card green darken-2">
+                            <div class="card green darken-2" style="border-radius: 12px;">
                                 <div class="card-content">
                                     <span class="card-title white-text"><i class="material-icons md-36">description</i> Jumlah Disposisi</span>
                                     <?php echo '<h5 class="white-text link">' . $count3 . ' Disposisi</h5>'; ?>
@@ -152,7 +152,7 @@ if (empty($_SESSION['admin'])) {
 
                         <a href="?page=ref">
                             <div class="col s12 m4">
-                                <div class="card deep-orange">
+                                <div class="card deep-orange" style="border-radius: 12px;">
                                     <div class="card-content">
                                         <span class="card-title white-text"><i class="material-icons md-36">class</i> Jumlah Klasifikasi Surat</span>
                                         <?php echo '<h5 class="white-text link">' . $count4 . ' Klasifikasi Surat</h5>'; ?>
@@ -165,7 +165,7 @@ if (empty($_SESSION['admin'])) {
                         if ($_SESSION['id_user'] == 1 || $_SESSION['admin'] == 2) { ?>
                             <a href="?page=sett&sub=usr">
                                 <div class="col s12 m4">
-                                    <div class="card blue darken-3">
+                                    <div class="card blue darken-3" style="border-radius: 12px;">
                                         <div class="card-content">
                                             <span class="card-title white-text"><i class="material-icons md-36">people</i> Jumlah Pengguna</span>
                                             <?php echo '<h5 class="white-text link">' . $count5 . ' Pengguna</h5>'; ?>

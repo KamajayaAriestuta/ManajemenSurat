@@ -27,7 +27,7 @@ if (!empty($_SESSION['admin'])) {
     <![endif]-->
 
         <!-- Global style START -->
-        <link type="text/css" rel="stylesheet" href="asset/css/materialize.min.css">
+        <link type="text/css" rel="stylesheet" href="asset/css/materialize.css">
         <style type="text/css">
             body {
                 background: #fff;
@@ -35,7 +35,6 @@ if (!empty($_SESSION['admin'])) {
 
             .bg::before {
                 content: '';
-                background-image: url('./asset/img/background.jpg');
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-attachment: scroll;

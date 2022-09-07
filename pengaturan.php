@@ -45,7 +45,7 @@ if (empty($_SESSION['admin'])) {
                     $nama = $_REQUEST['nama'];
                     $status = $_REQUEST['status'];
                     $alamat = $_REQUEST['alamat'];
-                    $kepsek = $_REQUEST['pimpinan'];
+                    $kepsek = $_REQUEST['kepsek'];
                     $nip = $_REQUEST['nip'];
                     $website = $_REQUEST['website'];
                     $email = $_REQUEST['email'];

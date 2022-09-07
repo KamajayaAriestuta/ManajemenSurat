@@ -22,7 +22,7 @@ if (!empty($_SESSION['admin'])) {
         if (!empty($data['alamat'])) {
             echo '<p class="almt">' . $data['alamat'] . '</p>';
         } else {
-            echo '<p class="almt">Jl. Siswa No. 167 Boroko Timur</p>';
+            echo '<p class="almt">Jl. Veteran Gedung Rektorat Lantai 2</p>';
         }
         echo '
                         </div>

@@ -12,18 +12,7 @@ require_once 'include/config.php';
 require_once 'include/functions.php';
 $config = conn($host, $username, $password, $database);
 ?>
-<!--
 
-Name        : Aplikasi Sederhana Manajemen Surat Menyurat
-Version     : v1.0.1
-Description : Aplikasi untuk mencatat data surat masuk dan keluar secara digital.
-Date        : 2020
-Developer   : Fitser Lauma, S.Pd.I
-Phone/WA    : 0813-4231-3216
-Email       : fitserlauma@gmail.com
-Website     : https://sites.google.com/view/mtsalkhairaatboroko
-
--->
 <!doctype html>
 <html lang="en">
 
@@ -57,7 +46,6 @@ Website     : https://sites.google.com/view/mtsalkhairaatboroko
 
         .bg::before {
             content: '';
-            background-image: url('./asset/img/background.jpg');
             background-repeat: no-repeat;
             background-size: cover;
             background-attachment: fixed;
@@ -191,7 +179,7 @@ Website     : https://sites.google.com/view/mtsalkhairaatboroko
 
 <!-- Body START -->
 
-<body class="blue-grey lighten-3 bg">
+<body class="white lighten-3 bg">
 
     <!-- Container START -->
     <div class="container">
@@ -203,7 +191,7 @@ Website     : https://sites.google.com/view/mtsalkhairaatboroko
             <div class="col s12 m6 offset-m3 offset-m3">
 
                 <!-- Box START -->
-                <div class="card-panel z-depth-2" id="login">
+                <div class="card-panel z-depth-2" id="login" style="border-radius: 12px;">
 
                     <!-- Row Form START -->
                     <div class="row">
@@ -266,7 +254,7 @@ Website     : https://sites.google.com/view/mtsalkhairaatboroko
                         ?>
 
                             <!-- Form START -->
-                            <form class="col s12 m12 offset-4 offset-4" method="POST" action="">
+                            <form class="col s12 m12 offset-4 offset-4" method="POST" action="" style="border-radius: 12px;">
                                 <div class="row">
                                     <?php
                                     if (isset($_SESSION['errLog'])) {
@@ -294,7 +282,7 @@ Website     : https://sites.google.com/view/mtsalkhairaatboroko
                                     <label for="password">Password</label>
                                 </div>
                                 <div class="input-field col s12">
-                                    <button type="submit" class="btn-large waves-effect waves-light blue-grey col s12" name="submit">LOGIN</button>
+                                    <button type="submit" class="btn-large waves-effect waves-light red darken-2 col s12" name="submit" style="border-radius: 12px;">LOGIN</button>
                                 </div>
                             </form>
                             <!-- Form END -->

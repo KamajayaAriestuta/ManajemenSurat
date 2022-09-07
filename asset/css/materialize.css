@@ -2062,6 +2062,7 @@ input-field round-in-box input#search {
 
 .blue-grey.darken-1 {
 	background-color: #546e7a !important
+	
 }
 
 .blue-grey-text.text-darken-1 {
@@ -4291,7 +4292,7 @@ footer.page-footer .footer-copyright {
 	margin: .5rem 0 1rem;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
-	border-radius: 2px;
+	border-radius: 12px;
 	background-clip: padding-box;
 	background-color: #fff
 }
@@ -4306,7 +4307,7 @@ footer.page-footer .footer-copyright {
 	box-sizing: border-box;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
-	border-radius: 2px;
+	border-radius: 12px;
 	background-clip: padding-box
 }
 
@@ -4501,7 +4502,7 @@ footer.page-footer .footer-copyright {
 .toast {
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
-	border-radius: 2px;
+	border-radius: 12px;
 	background-clip: padding-box;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -4670,7 +4671,7 @@ ul.tabs li.tab {
 	padding: 0 2rem;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
-	border-radius: 2px;
+	border-radius: 12px;
 	background-clip: padding-box;
 	line-height: 36px;
 	text-transform: uppercase;
@@ -5000,7 +5001,7 @@ a.waves-effect .waves-ripple {
 	z-index: 1000;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
-	border-radius: 2px;
+	border-radius: 12px;
 	background-clip: padding-box;
 	-webkit-transform: translate(0);
 	-moz-transform: translate(0);
@@ -5984,7 +5985,7 @@ select {
 	width: 100%;
 	padding: 5px;
 	border: 1px solid #f2f2f2;
-	border-radius: 2px;
+	border-radius: 12px;
 	height: 3rem
 }
 
@@ -7224,7 +7225,7 @@ ul.side-nav.fixed .collapsible-body li.active a {
 }
 
 .picker__box {
-	border-radius: 2px;
+	border-radius: 12px;
 	overflow: hidden
 }
 
@@ -7622,7 +7623,7 @@ button.picker__close:focus {
 	padding: 0 .8rem;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
-	border-radius: 2px;
+	border-radius: 12px;
 	background-clip: padding-box;
 	line-height: 36px;
 	text-transform: uppercase;
