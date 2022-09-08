@@ -255,10 +255,10 @@ if (empty($_SESSION['admin'])) {
             <div id="lead">
                 <p>Pimpinan HTL</p>
                 <div style="height: 50px;"></div>';
-        $query = mysqli_query($config, "SELECT kepsek, nip FROM tbl_instansi");
-        list($kepsek, $nip) = mysqli_fetch_array($query);
-        if (!empty($kepsek)) {
-            echo '<p class="lead">' . $kepsek . '</p>';
+        $query = mysqli_query($config, "SELECT pimpinan, nip FROM tbl_instansi");
+        list($pimpinan, $nip) = mysqli_fetch_array($query);
+        if (!empty($pimpinan)) {
+            echo '<p class="lead">' . $pimpinan . '</p>';
         } else {
             echo '<p class="lead">Haru Permadi, S.H., M.H..</p>';
         }
